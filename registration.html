@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<title>
+</title>
+<head></head>
+<style>
+    button{
+    background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+</style>
+<script>
+    function myFunction() {
+    alert("Registered Sucessfully");
+    }
+</script>
+<body>
+    <div class="container">
+    <h2>Registration</h2>
+
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" name="username" required placeholder="Enter The Username">
+      
+        <br>
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" name="password" required placeholder="Enter The Password">
+        
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" required placeholder="Enter The Email">
+        
+        <br>
+        <label for="fullname">Full Name:</label>
+        <br>
+        <input type="text" name="full name" required placeholder="Enter The Full Name"><br><br>
+    
+    <button type="submit" onclick="myFunction()">Register</button>
+    </form>
+
+    <div class="login-link">
+    <p>Already have an account? <a href="home.html">Login here</a></p>
+    </div>
+    </div>
+</body>
