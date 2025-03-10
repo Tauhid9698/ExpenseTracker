@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<title></title>
+<head>
+</head>
+<style>
+    h2{
+        text-align: center;
+    }
+    button{
+        background-color: lightgreen;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+<script>
+    function myFunction(){
+        alert("Expense Added Sucessfully")
+    }
+</script>
+<body>
+    <div class="container">
+        <h2>Add New Expense</h2>
+        <br>
+
+        <label for="expenseName">Expense Name:</label>
+        <br>
+        <input type="text" name="expenseName" required id="expenseName" placeholder="Enter The Name">
+
+        <br>
+        <label for="amount">Amount:</label>
+        <br>
+        <input type="number" name="amount" required id="amount" placeholder="Enter The Amount">
+
+        <br>
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" name="date" required id="date" placeholder="Enter The Date">
+
+        <br>
+        <label for="description">Description:</label>
+        <br>
+        <textarea id="description" name="description" rows="3"> </textarea>
+        <br>
+        <button onclick="myFunction()">Add Expense</button>
+
+    </div>
+</body>
